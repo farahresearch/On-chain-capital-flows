@@ -1,4 +1,4 @@
--- Day 1: SQL Foundations for On-Chain Analysis
+ -- Day 1: SQL Foundations for On-Chain Analysis
 -- Focus: Whale identification using basic SQL commands
 
 -- 1. Filter large (whale) transactions
