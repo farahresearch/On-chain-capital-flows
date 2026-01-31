@@ -1,25 +1,23 @@
-## Whale-activity
+## Whale Activity Analysis
 
+This module focuses on identifying high-impact wallets
+based on transaction frequency and value transferred.
 
-### Goal
-Practice core SQL commands used in blockchain analytics to identify
-and rank whale wallets.
+The objective is to surface wallets whose behavior
+may influence market liquidity or signal accumulation
+and distribution phases.
 
-### SQL Concepts Practiced
-- WHERE
-- GROUP BY
-- COUNT()
-- SUM()
-- ORDER BY
-- LIMIT
+### Research Questions
+- Which wallets move the highest total value on-chain?
+- Which wallets are consistently active over time?
+- Are there dominant actors controlling liquidity flow?
 
-### Analyst Questions Answered
-- Which wallets are most active?
-- Which wallets move the most value?
-- How do we rank whale wallets by influence?
+### Methodology
+- Aggregate transaction counts per wallet
+- Rank wallets by total value transferred
+- Filter noise to focus on economically relevant actors
 
-### Notes
-These queries use simulated transaction data to focus on analytical
-thinking before moving to real on-chain datasets (Dune).
-
-Bismillah — consistency over perfection.
+### Analyst Insight
+High activity alone does not imply conviction.
+Value-weighted behavior provides stronger signals
+than raw transaction frequency.
