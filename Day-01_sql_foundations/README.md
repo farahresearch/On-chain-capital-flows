@@ -1,4 +1,5 @@
-## Day 1 — SQL Foundations for On-Chain Analysis
+## Whale-activity
+
 
 ### Goal
 Practice core SQL commands used in blockchain analytics to identify
