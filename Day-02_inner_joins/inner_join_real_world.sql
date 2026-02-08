@@ -1,9 +1,16 @@
 -- =========================================================
--- INNER JOIN — REAL-WORLD PRACTICAL CASES
--- Focus: On-chain analytics & real analyst use cases
+-- TRANSACTION-LEVEL ACTIVITY FILTERING USING INNER JOIN
+-- Purpose:
+-- Use INNER JOIN to isolate confirmed on-chain activity
+-- by retaining only records that exist across datasets.
+--
+-- Analyst Use Cases:
+-- - Active wallet identification
+-- - Whale transaction filtering
+-- - Protocol usage measurement
+-- - Entity-attributed transfer analysis
 -- =========================================================
-
--- 1) Active Wallets
+-- 1) Active Wallets identification
 -- Wallets that have actually sent transactions
 SELECT
   w.address,
@@ -14,7 +21,7 @@ INNER JOIN transactions t
   ON w.address = t.from_address;
 
 
--- 2) High-Value Transactions (Whale Spotting)
+-- 2) High-Value Transactions Filtering (Whale Activity)
 SELECT
   w.label,
   t.from_address,
