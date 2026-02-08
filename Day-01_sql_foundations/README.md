@@ -13,6 +13,6 @@ This module focuses on identifying high-impact wallets based on value-weighted t
 - Filter low-signal activity to isolate wallets with material market impact
 
 ### Analyst Insight
--High activity alone does not imply conviction.
--Value-weighted behavior provides stronger signals
--than raw transaction frequency.
+- High activity alone does not imply conviction.
+- Value-weighted behavior provides stronger signals
+- than raw transaction frequency.
