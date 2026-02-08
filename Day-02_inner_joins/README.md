@@ -1,25 +1,25 @@
-# Day 02 — SQL INNER JOIN (Real-World Use Cases)
+## Transaction-Level Activity Filtering Using INNER JOIN
 
-Today’s focus was mastering SQL INNER JOIN through real-world,
-analytics-driven examples with an emphasis on on-chain data.
+This module demonstrates how INNER JOIN is used in on-chain analytics to isolate real economic activity by retaining only records that exist across multiple datasets.
 
-## What I Practiced
-- INNER JOIN fundamentals
-- Filtering for real activity
-- Whale detection logic
-- Protocol usage analysis
-- Entity-based transaction tracking
-- DISTINCT + aggregation with JOINs
+The focus is on filtering noise, identifying active entities, and constructing reliable behavioral metrics from transaction-level data.
 
-## Why INNER JOIN Matters
-INNER JOIN is used to:
-- Remove inactive or irrelevant records
-- Focus only on meaningful behavior
-- Analyze actual on-chain activity
-- Build reliable metrics
+### Analytical Objectives
+- Filter inactive or irrelevant wallets from analysis
+- Isolate high-value and high-frequency actors
+- Attribute transactions to labeled entities and protocols
+- Build trustworthy metrics based on confirmed activity
 
-## Files
-- `inner_join_real_world.sql` — practical INNER JOIN examples inspired by
-  on-chain analytics, DeFi research, and behavioral analysis.
+### Methodology
+- Use INNER JOIN to retain only matched records across datasets
+- Apply aggregation and DISTINCT logic to measure activity intensity
+- Emphasize economic relevance over raw transaction counts
 
-Bismillah. Consistency over intensity.
+### Included Analysis
+- Active wallet identification
+- High-value (whale) transaction filtering
+- Protocol usage measurement
+- Entity-to-entity transfer analysis
+
+### Analyst Insight
+INNER JOIN is a foundational tool for behavioral analysis. By excluding unmatched records, it ensures that insights are derived only from confirmed, economically meaningful activity.
