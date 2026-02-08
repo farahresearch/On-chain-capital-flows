@@ -1,4 +1,4 @@
-# On-Chain SQL Research
+# On-Chain Capital flows
 
 This repository contains SQL-based analyses of on-chain data,
 focused on understanding capital flows, exchange activity,
